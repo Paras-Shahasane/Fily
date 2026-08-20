@@ -1,0 +1,10 @@
+[package]
+name = "fily-core"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+description = "Core filesystem and file-management engine for Fily."
+
+[dependencies]
+thiserror.workspace = true

@@ -1,0 +1,15 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/fily-core", "crates/fily-plugin-api",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+authors = ["Fily Contributors"]
+description = "An ultra-lightweight, cross-platform file manager."
+
+[workspace.dependencies]
+thiserror = "2"
