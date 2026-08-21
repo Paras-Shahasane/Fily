@@ -1,7 +1,9 @@
 [workspace]
 resolver = "2"
 members = [
-    "crates/fily-core", "crates/fily-plugin-api",
+    "crates/fily-core",
+    "crates/fily-plugin-api",
+    "crates/fily-gui",
 ]
 
 [workspace.package]

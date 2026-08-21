@@ -1,0 +1,44 @@
+import { VerticalBox, HorizontalBox, Button } from "std-widgets.slint";
+
+export component MainWindow inherits Window {
+    title: "Fily";
+    width: 1000px;
+    height: 700px;
+
+    VerticalBox {
+        padding: 12px;
+        spacing: 8px;
+
+        HorizontalBox {
+            spacing: 8px;
+
+            Button {
+                text: "←";
+            }
+
+            Button {
+                text: "→";
+            }
+
+            Button {
+                text: "↑";
+            }
+
+            Text {
+                text: "Current Directory";
+                vertical-alignment: center;
+            }
+        }
+
+        Rectangle {
+            border-width: 1px;
+            border-color: #888;
+
+            Text {
+                text: "File listing will appear here";
+                horizontal-alignment: center;
+                vertical-alignment: center;
+            }
+        }
+    }
+}
